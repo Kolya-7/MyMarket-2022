@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyMarket-2022/static/css/main.edecd14f.css",
-    "main.js": "/MyMarket-2022/static/js/main.6601f0d7.js",
+    "main.css": "/MyMarket-2022/static/css/main.d3a2cece.css",
+    "main.js": "/MyMarket-2022/static/js/main.e8c2e9e0.js",
     "static/js/787.5321f4d1.chunk.js": "/MyMarket-2022/static/js/787.5321f4d1.chunk.js",
     "static/media/cart.svg": "/MyMarket-2022/static/media/cart.2a698d837722e1cf05d0.svg",
     "static/media/favicon.svg": "/MyMarket-2022/static/media/favicon.f66b04930c74b2326a4019378331e4f4.svg",
     "index.html": "/MyMarket-2022/index.html",
-    "main.edecd14f.css.map": "/MyMarket-2022/static/css/main.edecd14f.css.map",
-    "main.6601f0d7.js.map": "/MyMarket-2022/static/js/main.6601f0d7.js.map",
+    "main.d3a2cece.css.map": "/MyMarket-2022/static/css/main.d3a2cece.css.map",
+    "main.e8c2e9e0.js.map": "/MyMarket-2022/static/js/main.e8c2e9e0.js.map",
     "787.5321f4d1.chunk.js.map": "/MyMarket-2022/static/js/787.5321f4d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edecd14f.css",
-    "static/js/main.6601f0d7.js"
+    "static/css/main.d3a2cece.css",
+    "static/js/main.e8c2e9e0.js"
   ]
 }
