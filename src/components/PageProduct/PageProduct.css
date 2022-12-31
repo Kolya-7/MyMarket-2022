@@ -239,7 +239,6 @@ a:active {
         margin-top: 20px;
     }
     .content  {
-        max-width: 360px;
         padding: 0px 10px;
         margin: 0;
     }
@@ -281,7 +280,7 @@ a:active {
         padding-top: 21px;
     }
     .important {
-        max-width: 340px;
+        width: 100%;
         box-sizing: border-box;
     }
     .unfo-1{
@@ -292,6 +291,7 @@ a:active {
 @media (min-width: 360px) and (max-width: 1023px){
     .mobile__image img{
         max-height: 250px;
+        width: 100%;
     }
 }
 

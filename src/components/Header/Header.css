@@ -91,7 +91,6 @@
  /*Для ширины экрана меньше 750px*/
 @media (max-width: 750px) {
     .header {
-        width: 360px;
         height: 55px;
     }
     .logo {

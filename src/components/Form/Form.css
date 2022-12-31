@@ -70,12 +70,13 @@
  }
 
  .form__input-name {
-     width: 70%;
+     width: 370px;
      box-sizing: border-box;
  }
 
  .forms__input-rating {
-     width: 30%;
+     width: 180px;
+     box-sizing: border-box;
  }
 
  .form__name {
@@ -155,16 +156,6 @@
          gap: 0;
      }
 
-     .form__name,
-     .error__name {
-         width: 340px;
-     }
-
-     .form__rating,
-     .error__rating {
-         width: 340px;
-     }
-
      .error__name,
      .error__rating {
          min-height: 15px;
@@ -199,4 +190,24 @@
      .form__review {
          margin-bottom: 15px;
      }
+     .form__input-name {
+        width: 100%;
+    }
+   
+    .forms__input-rating {
+        width: 100%;
+    }
  }
+
+ /* @media (min-width: 360px) and (max-width: 1023px) {
+
+    .form__name,
+    .error__name {
+        width: 360px;
+    }
+
+    .form__rating,
+    .error__rating {
+        width: 360px;
+    }
+} */
