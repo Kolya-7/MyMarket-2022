@@ -1,0 +1,12 @@
+.iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    height: 100%;
+    color: #888888;
+}
+
+.iframe-text{
+    font-size: 16px;
+}

@@ -1,0 +1,136 @@
+/*Хедер*/
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    margin: 0;
+    background: rgb(233, 240, 246);
+    box-shadow: 0 2px 9px 0px rgba(0, 0, 0, 0.2);
+}
+.header__content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.header__icon {
+    position: relative;
+    cursor: pointer;
+    right: 10px;
+    margin-top: 7px;
+}
+.header__icon-link { 
+    padding-right: 20px;
+}
+.header__icon-link svg{
+    width: 44px;
+    height: 35px;
+}
+.header__icon_cart svg{
+    width: 42px;
+    height: 41px;
+}
+.header__icon-link:hover svg path {
+    fill: #F36223;
+}
+.header__icon_cart:hover svg path {
+    fill: #F36223;
+}
+.header__icon-cart-counter, .header__icon-link-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #F36223;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    background: #F36223;
+    box-sizing: border-box;
+    right: 0px;
+    top: -2px;
+    z-index: 1;
+}
+.header__icon-link-counter {
+    left: calc(100% - 81px);
+}
+
+.counter__empty {
+    display: none;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0;
+    font-weight: 700;
+    line-height: 53px;
+    font-size: 44px;
+    color: black;
+}
+
+.logo__name {
+    color: #FF5722;
+    padding-left: 10px;
+}
+ /*Для ширины экрана меньше 1500px*/
+/* @media (max-width: 1499px) {
+    .header__content {
+        padding: 0 15px;
+    }
+} */
+ /*Для ширины экрана меньше 750px*/
+@media (max-width: 750px) {
+    .header {
+        width: 360px;
+        height: 55px;
+    }
+    .logo {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        padding: 8px 0 10px 0;
+    }
+    .logo__image img{
+        height: 30px;
+    }
+    .header__icon-link svg{
+        width: 26px;
+        height: 20px;
+    }
+    .header__icon-link {
+        padding-right: 10px;
+    }
+    .header__icon-cart-counter  {
+        left: calc(100% - 8px);
+    }
+    .header__icon-link-counter {
+        left: calc(100% - 44px);
+    }
+    .header__icon_cart svg{
+        width: 25px;
+        height: 23px;
+    }
+    .header__icon-cart-counter,.header__icon-link-counter  {
+        width: 14px;
+        height: 14px;
+        font-size: 10px;
+        top: -3px;
+        padding: 4px 4px;
+        border-radius: 50px;
+    }
+    .header__icon{
+        margin-top: 17px;
+    }
+    
+ }    
+ 
