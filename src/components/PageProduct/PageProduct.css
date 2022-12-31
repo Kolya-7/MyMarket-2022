@@ -38,13 +38,13 @@ a {
     display: flex;
     gap: 10px;
 }
-.mobiles__image {
+.mobile__image img{
     height: 387px;
-    width: auto;
+    width: 300px;
 }
 
 @media (min-width: 1025px) and (max-width: 1499px) {
-.mobiles__image {
+.mobile__image img{
     height: 272px;
     width: auto;
 }
@@ -247,6 +247,12 @@ a:active {
         line-height: 29px;
         padding-bottom: 20px;
     }
+    .mobile__image {
+        flex-wrap: nowrap;
+    }
+    .mobile__image-3, .mobile__image-4, .mobile__image-5 {
+        display: none;
+    }
     .container {
         gap: 0px;
         margin-bottom: 40px;
@@ -280,13 +286,9 @@ a:active {
 }    
 
 @media (min-width: 360px) and (max-width: 1023px){
-    .mobiles__image{
+    .mobile__image img{
         max-height: 250px;
-    }
-
-    .mobile__image {
-        max-width: 335px;
-        overflow: hidden;
+        width: 100%;
     }
 }
 
