@@ -2,15 +2,16 @@
     list-style-type: none;
 }
 .config__label {
+    display: inline-block;
+    list-style-type: none;
     padding: 10px 20px;
-    border: 2px solid transparent;
-    outline: 1px solid #888888;
-    background-color: transparent;
+    border: 1px solid #888888;
     border-radius: 4px;
-    box-sizing: border-box;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     cursor: pointer;
+    background-color: transparent;
     background-color: white;
 }
 .config__btn input[type=radio] {
@@ -21,9 +22,11 @@
 .config__btn input[type=radio]:checked + label span{
     border: 1px solid #F36223;
     outline: 1px solid #F36223;
+    border-radius: 4px;
 }
 .config__btn input[type=radio]:active + label span{
     border: 1px solid #A93A09;
     outline: 1px solid #A93A09;
+    border-radius: 4px;
 }
 

@@ -12,8 +12,8 @@ return (
                 if(evt.target.checked) {
                     setCurrentMemoryId(config.id)
                 }
-            }}/>
-            <label htmlFor={config.id}><span className="config__label btn_selected">{config.item}</span></label>
+            }} />
+             <label htmlFor={config.id}><span className="config__label btn_selected">{config.item}</span></label>
         </li> 
         )
 }
